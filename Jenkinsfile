@@ -52,7 +52,8 @@ pipeline{
                     }
                 }
             }
-        }/*
+        }
+        /*
         stage("pushing the helm charts to nexus"){
             steps{
                 script{
